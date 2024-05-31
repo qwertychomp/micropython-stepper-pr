@@ -1,6 +1,5 @@
 import machine
 import math
-import time
 
 class Stepper:
     def __init__(self,step_pin,dir_pin,en_pin=None,steps_per_rev=200,speed_sps=10,invert_dir=False,timer_id=-1):
